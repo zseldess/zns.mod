@@ -1,0 +1,8 @@
+zns.mod - like %, but modulo range signed according to right operand
+	-Developed by Zachary Seldess, King Abdullah University of Science and Technology
+
+
+Installation:
+	-Place this directory (zns.mod/) and all its contents in MaxSDK-x.x.x/examples/ (or another immediate subdirectory of MaxSDK-x.x.x/)
+
+
