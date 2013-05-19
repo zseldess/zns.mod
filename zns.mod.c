@@ -35,10 +35,10 @@ void custom_imod(t_mod *x, long n);
 void custom_fmod(t_mod *x, double f);
 
 //////////////////////// global class pointer variable
-void *mod_class;
+static t_class *mod_class;
 
 
-int main(void)
+int C74_EXPORT main(void)
 {	
     t_class *c;
 
