@@ -176,8 +176,10 @@
 					x86_64,
 				);
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "$(C74_SYM_LINKER_FLAGS)";
 				PRODUCT_NAME = zns.mod;
 				SDKROOT = "";
@@ -193,7 +195,9 @@
 					x86_64,
 				);
 				COPY_PHASE_STRIP = YES;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "$(C74_SYM_LINKER_FLAGS)";
 				PRODUCT_NAME = zns.mod;
 				SDKROOT = "";
